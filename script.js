@@ -24,7 +24,7 @@ else if (conversionType === "CtoK")
     {
         convertedTemperature = (temperature + 273.32);
         document.getElementById("outputTemperature").innerText = 
-        `${temperature} °F = ${convertedTemperature.toFixed(2)} °C`;
+        `${temperature} °C = ${convertedTemperature.toFixed(2)} °K`;
     }
 }
 
